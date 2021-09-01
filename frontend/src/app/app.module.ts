@@ -12,7 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './views/home/home.component';
 import { ContactComponent } from './views/contact/contact.component';
-import { NewsComponent } from './views/news/news.component';
+
 import { ObservatoryComponent } from './views/observatory/observatory.component';
 import { WhatisobservatoryComponent } from './views/whatisobservatory/whatisobservatory.component';
 import { PartnersComponent } from './views/partners/partners.component';
@@ -23,7 +23,6 @@ import { PartnersComponent } from './views/partners/partners.component';
     NavbarComponent,
     HomeComponent,
     ContactComponent,
-    NewsComponent,
     ObservatoryComponent,
     WhatisobservatoryComponent,
     PartnersComponent
@@ -35,7 +34,7 @@ import { PartnersComponent } from './views/partners/partners.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
 
   ],
   providers: [],
