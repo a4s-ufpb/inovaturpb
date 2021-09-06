@@ -1,20 +1,30 @@
-.container{
-  position: absolute;
-  width: 484px;
-  height: 350px;
-  left: 100px;
-  top: 254px;
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 5%;
+  height: 100%;
+  overflow: hidden;
+  background: url(/assets/img/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.container h1{
-  position: absolute;
-  width: 465px;
-  height: 89px;
-  left: 10px;
-  top: 35px;
+.alth2{
+  padding-top: 140px;
+}
 
+.bg{
+  text-align: center;
+}
+
+.img-bg{
+  width: 100%;
+  height: auto;
+}
+
+.grid-item h1{
   font-family: Poppins;
-  font-style: normal;
   font-weight: bold;
   font-size: 80px;
   line-height: 80px;
@@ -25,13 +35,7 @@
   color: #333333;
 }
 
-.container h2{
-  position: absolute;
-  width: 490px;
-  height: 25px;
-  left: 10px;
-  top: 10px;
-
+.grid-item h2{
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -44,13 +48,7 @@
   color: #409979;
 }
 
-.container p{
-  position: absolute;
-  width: 480px;
-  height: 90px;
-  left: 10px;
-  top: 140px;
-
+.grid-item p{
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -62,26 +60,27 @@
   color: #333333;
 }
 
-.container p > strong{
+.grid-item p > strong{
   color: #86574D;
 }
 
-.container .turista{
-  position: absolute;
-  width: 125px;
-  height: 35px;
-  left: 10px;
-  top: 250px;
+.turista{
   background-color: #86574D;
   color: #fff;
+  margin-top: 10px;
 }
 
-.container .profissional{
-  position: absolute;
-  width: 228px;
-  height: 35px;
-  left: 10px;
-  top: 300px;
+.profissional{
   background-color: #409979;
   color: #fff;
+  margin-top: 20px;
+}
+
+.mat-button{
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
