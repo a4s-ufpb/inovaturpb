@@ -8,6 +8,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatCardModule} from '@angular/material/card';
+
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -38,7 +40,8 @@ import { PartnersComponent } from './views/partners/partners.component';
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatCardModule
 
   ],
   providers: [],
