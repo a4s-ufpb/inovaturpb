@@ -1,0 +1,16 @@
+#telaLogin{
+	width: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 1px 5px 30px rgb(195, 195, 195);
+	border-radius: 8px;
+}
+
+#fundo{
+	background-image: url("../img/praia.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

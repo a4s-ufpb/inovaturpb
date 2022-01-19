@@ -1,0 +1,554 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.form-group{
+	left: 10px;
+	padding: 15px
+}
+
+.bg {
+    background-image: url(https://lh3.googleusercontent.com/oGqE1GPhak9fF6A0e3UoZMnou_m0KkO9HFfa9Cq38pPbtUsvAomFr70wZ8fyp55PMONd-1RaBPvBPdvlcR8u5Ben78QQroBrhWTlj9CVjXKyLwFa0Fqy653PvNcYfI4Leg=w1069);
+    background-size: cover;
+    background-position: center;
+    height: 25%;
+    border-radius: 8px;
+    position: absolute;
+	width: 50%;
+	left: 25%;
+	top: 10%;
+	border: solid;
+	border-radius: 8px;
+	border-color:#dadce0;
+	border-width:2px;
+	border-radius: 8px;
+	margin: auto;
+}
+
+.top-color{
+	background-color: rgb(80, 130, 160);
+    height: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.aviso{
+	position: absolute;
+	width: 50%;
+	height: 33%;
+	left: 25%;
+	top: 40%;
+	font-family: poppins;
+	background:white;
+/* 	box-shadow: 0 0 8px 2px #888; */
+	border: solid;
+	border-radius: 8px;
+	border-color:#dadce0;
+	border-width:2px;
+	margin: auto;
+}
+
+
+#container {
+	position: absolute;
+	width: 50%;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	left: 25%;
+	top: 75%;
+	font-family: poppins;
+	background:white;
+/* box-shadow: 0 0 8px 2px #888; */
+	border: solid;
+	border-radius: 8px;
+	border-color:#dadce0;
+	border-width:2px;
+	margin: auto;
+}
+
+.btn btn-success {
+    background-color: #409979 !important;
+    color: #fff !important;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+input{
+	display: block;
+}
+
+.input-group.md-form.form-sm.form-1 input{
+  border: 1px solid #bdbdbd;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.campo-todos{
+	border-color: #9a9a9a;
+    border-width: 0px 0px 1px 0px;
+    background-color: #e8e8e800;
+	height: 30px;
+	width: 500px;
+	margin-top:15px;
+}
+
+.campo-todos:focus-visible{
+	outline: none;
+}
+
+
+
+label{
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+td{
+	font-family: poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+select{
+	display: block;
+}
+
+h1 {
+	text-align: left;
+	padding: 0px 15px 0px 15px;
+}
+
+p {
+	text-align: left;
+	padding: 0px 15px 0px 15px;
+}
+
+.nome {
+/* 	position: absolute; */
+	left: 10px;
+	top: 200px;
+	padding: 15px;
+	
+}
+
+.nomeCampo{
+	border: 0 none;
+	border-radius: 8px;
+	background-color: #E8E8E8;
+	height: 30px;
+	width: 300px;
+}
+
+.estadoSelect {
+	width: 200px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.estado{
+/* 	position: absolute; */
+	left: 10px;
+	top: 1300px;
+	padding:15px;
+}
+
+.cidade {
+/* 	position: absolute; */
+	left: 10px;
+	top: 1358px;
+	padding:15px;
+}
+
+.cidadeSelect{
+	width: 300px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.tipo {
+/* 	position: absolute; */
+	left: 10px;
+	top: 260px;
+	padding:15px;
+}
+
+.tipoSelect{
+	width: 300px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.segmento{
+/* 	position: absolute; */
+	left: 10px;
+	top: 320px;
+	width: 550px;
+	padding:15px;
+}
+
+.checkbox{
+	margin-top:15px;
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+.descricao {
+/* 	position: absolute; */
+	left: 10px;
+	top: 1120px;
+	width: 550px;
+	padding:15px;
+}
+
+.descCampo{
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+	width: 300px;
+	height: 30px;
+}
+
+.lat {
+	/* 	position: absolute; */
+	left: 10px;
+	top: 2170px;
+	width: 550px;
+	padding:15px;
+}
+
+.latCampo{
+	border: 0 none;
+	border-radius: 8px;
+	background-color: #E8E8E8;
+	height: 30px;
+	width: 360px;
+}
+
+.lon {
+	/* 	position: absolute; */
+	left: 10px;
+	top: 2230px;
+	width: 550px;
+	padding:15px;
+}
+
+.lonCampo{
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+	width: 360px;
+	height: 30px;
+}
+
+
+
+.comoChegar {
+	/* 	position: absolute; */
+	left: 10px;
+	top: 980px;
+	width: 550px;
+	padding:15px;
+}
+
+.comoChegarCampo{
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+	width: 300px;
+	height: 30px;
+}
+
+.linkMaps {
+/* 	position: absolute; */
+/* 	height: 200px; */
+	left: 10px;
+	top: 1180px;
+	width: 550px;
+	padding:15px;
+}
+
+.linkMapsCampo{
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+	width: 300px;
+	height: 30px;
+}
+
+.siteLocal {
+	/* 	position: absolute; */
+	left: 10px;
+	top: 1240px;
+	width: 550px;
+	padding:15px;
+}
+
+.siteLocalCampo{
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+	width: 445px;
+	height: 30px;
+}
+
+.telCont {
+/* 	position: absolute; */
+	left: 10px;
+	top: 880px;
+	width: 550px;
+}
+
+.telContCampo{
+	width: 445px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.nomeRes {
+	/* 	position: absolute; */
+	left: 10px;
+	top: 1415px;
+	width: 550px;
+	padding:15px;
+}
+
+.nomeResCampo{
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+	width: 445px;
+	height: 30px;
+}
+
+.contRes {
+	/* 	position: absolute; */
+	left: 10px;
+	top: 1575px;
+	width: 550px;
+	padding:15px;
+}
+
+.contResCampo{
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.emailRes {
+	/* 	position: absolute; */
+	left: 10px;
+	top: 1495px;
+	padding:15px;
+	
+}
+
+.emailResCampo{
+	width: 538px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+	color: black
+}
+
+.horarioVis {
+	/* 	position: absolute; */
+	left: 10px;
+	top: 600px;
+	overflow: auto;
+	width: 90%;
+	padding:15px;
+}
+
+.horarioVisL-div{
+	padding:15px 15px 0px 15px;
+}
+
+
+.horarioTable{
+	padding-top:15px;
+}
+
+.dias-tabela{
+	padding-top: 15px;
+	font-size:14px;
+}
+
+.dias-tabela-segunda{
+	padding-top: 70px;
+	font-size:14px;
+}
+
+label.texto-tabela {
+    font-size: 14px;
+}
+
+.checkbox-dias{
+   margin-top: 20px;
+   height: 40px;
+   width: 54px;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 25px;
+}
+
+.horarioVisCampo{
+	width: 200px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+
+.nomeCompRes {
+/* 	position: absolute; */
+	left: 10px;
+	top: 1990px;
+	padding:15px;
+	
+}
+
+.nomeCompResCampo{
+	width: 445px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.contResPree {
+/* 	position: absolute; */
+	left: 10px;
+	top: 2050px;
+	padding:15px;
+	
+}
+
+.infoAdicionais{
+	/* 	position: absolute; */
+	left: 10px;
+	top: 2130px;
+	padding:15px;
+}
+
+.infoAdicionaisCampo{
+	width: 445px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.contResPreeCampo{
+	width: 445px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.emailResPree {
+/* 	position: absolute; */
+	left: 10px;
+	top: 1680px;
+	padding:15px;
+	
+}
+
+.emailResPreeCampo{
+	width: 445px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.urlImg{
+/* 	position: absolute; */
+	left: 10px;
+	top: 1760px;
+	padding:15px;
+}
+
+.urlImgCampo{
+	width: 450px;
+	height: 30px;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+	border: 0 none;
+}
+
+.divulgaFotosInfo{
+/* 	position: absolute; */
+	left: 10px;
+	top: 1820px;
+	padding:15px;
+}
+
+.divulgaFotosInfoCampo{
+	width: 445px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+.outrasInfo {
+/* 	position: absolute; */
+	left: 10px;
+	top: 1657px;
+	width: 550px;
+	padding:15px;
+}
+
+
+.outrasInfoCampo{
+	width: 445px;
+	height: 30px;
+	border: 0 none;
+	background-color: #E8E8E8;
+	border-radius: 8px;
+}
+
+div#map{
+	top:30px;
+	    margin-bottom: 35px;
+	width: 90% !important;
+    height: 300px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    border-radius: 8px !important;
+    left: 5% !important;
+}
+
+label.la-lo {
+    padding-left: 5%;
+}
+
+
