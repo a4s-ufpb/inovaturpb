@@ -35,13 +35,10 @@ public class AtrativoDAO extends Conecta{
 		String consulta = "SELECT idAtrativo, nomeAtrativo, cidade, estado, segmento, horario "
 				+ "FROM atrativosbd "
 				+ "WHERE nomeAtrativo like ?";
-//		Cria o objeto para que será utilizado para enviar comandos SQL para o BD
 		this.conectar();
 		PreparedStatement stm = conn.prepareStatement(consulta);
 		stm.setString(1, "%" + pesquisa + "%");
-//		Armazena o resultado do comando enviado para o banco de dados
 		ResultSet rs = stm.executeQuery();
-//		rs.next() aponta para o proximo registro do BD, se houver um
 		while(rs.next()) {
 			Atrativo a = new Atrativo();
 			a.setIdAtrativo(rs.getInt("idAtrativo"));
@@ -92,23 +89,6 @@ public class AtrativoDAO extends Conecta{
 			System.out.println(e);
 			return false;
 		}
-	}
-	
-	public Atrativo getCarregaPorID(int idAtrativo) throws Exception{
-		
-		Atrativo a = new Atrativo();
-		
-		String sql = "SELECT * FROM atrativosbd WHERE idAtrativo=?";
-		this.conectar();
-		PreparedStatement pstm = conn.prepareStatement(sql);
-		pstm.setInt(1, idAtrativo);
-		ResultSet rs = pstm.executeQuery();
-		if(rs.next()) {
-			a.setIdAtrativo(rs.getInt("idAtrativo"));
-			a.setNomeDoAtrativo(rs.getString("nomeAtrativo"));
-		}
-		this.desconectar();
-		return a;
 	}
 	
 	public boolean deletar(Atrativo a) {

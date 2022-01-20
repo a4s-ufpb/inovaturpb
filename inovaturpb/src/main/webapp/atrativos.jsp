@@ -32,7 +32,7 @@
           Pesquisas
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="pesquisaPorSegmento.jsp">Filtrar por nome</a>
+          <a class="dropdown-item" href="pesquisaPorNome.jsp">Filtrar por nome</a>
         </div>
       </li>
     </ul>
