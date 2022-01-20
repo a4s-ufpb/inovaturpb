@@ -1,6 +1,7 @@
 <%@page import="model.AtrativoDAO"%>
 <%@page import="model.Atrativo"%>
 <%@page import="java.util.ArrayList"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -26,22 +27,14 @@
       <li class="nav-item active">
         <a class="navbar-brand" href="atrativos.jsp">Atrativos <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
-        <a class="navbar-brand" href="listar_usuarios.jsp">Usuarios <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item dropdown">
         <a class="navbar-brand dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Pesquisas
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="pesquisaPorSegmento.jsp">Filtrar por nome</a>
+          <a class="dropdown-item" href="pesquisaPorNome.jsp">Filtrar por nome</a>
         </div>
       </li>
-    </ul>
-    <ul class="nav nav-pills justify-content-end ml-auto">
-    	<li class="nav-item active">
-    		<a class="navbar-brand" href="form_login.jsp">Sair<span class="sr-only">(current)</span></a>
-    	</li>
     </ul>
   </div>
 </nav>
@@ -76,7 +69,7 @@
 		<jsp:useBean class="model.AtrativoDAO" id="aDAO"/>
 		
 		<tbody>
-		<c:forEach var="a" items="${aDAO.lista }">
+		<c:forEach var="a" items="${aDAO.lista}">
 		<tr>
 			<td>${a.idAtrativo }</td>
 			<td>${a.nomeDoAtrativo }</td>

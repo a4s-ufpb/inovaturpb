@@ -29,29 +29,21 @@
       <li class="nav-item active">
         <a class="navbar-brand" href="atrativos.jsp">Atrativos <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
-        <a class="navbar-brand" href="listar_usuarios.jsp">Usuarios <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item dropdown">
         <a class="navbar-brand dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Pesquisas
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="pesquisaPorSegmento.jsp">Filtrar por nome</a>
+          <a class="dropdown-item" href="pesquisaPorNome.jsp">Filtrar por nome</a>
         </div>
       </li>
-    </ul>
-    <ul class="nav nav-pills justify-content-end ml-auto">
-    	<li class="nav-item active">
-    		<a class="navbar-brand" href="form_login.jsp">Sair<span class="sr-only">(current)</span></a>
-    	</li>
     </ul>
   </div>
 </nav>
 	
 	<div class="card">
 	
-	<form class="form-inline my-2 my-lg-0" action="pesquisaPorSegmento.jsp" method="GET">
+	<form class="form-inline my-2 my-lg-0" action="pesquisaPorNome.jsp" method="GET">
 	<div class="card-header">
 	<input class="form-control mr-sm-2" type="search" placeholder="Filtrar" aria-label="Filtrar" name="pesquisa" value="${param.pesquisa}">
 	<button class="btn btn-primary my-2 my-sm-0" type="submit">Filtrar</button>

@@ -42,7 +42,7 @@
 	
 	
 	
-	<form action="GerenciarAtrativo.do" method="POST">
+	<form action="GerenciadorDeAtrativo" method="POST">
 	<input type="hidden" name="idAtrativo" value="${atrativo.idAtrativo }"/> 
 	<div class="form-group">
 	<label class="nomeL">1. Nome do atrativo turístico *</label>
@@ -86,54 +86,54 @@
 </label><br>
 	
 	<label class="checkbox" for="seg1">
-		<input type="checkbox" name="segmento" id="seg1" value="${atrativo.segmento }">
+		<input type="checkbox" name="segmento" id="seg1" value="Turismo histórico-cultural (patrimônio histórico-cultural material e/ou imaterial)">
 		Turismo histórico-cultural (patrimônio histórico-cultural material e/ou imaterial)
 		</label>
 		<br>
 		
 	<label class="checkbox" for="seg2">
-		<input type="checkbox" name="segmento" id="seg2" value="${atrativo.segmento }">
+		<input type="checkbox" name="segmento" id="seg2" value="Turismo rural ou ecoturismo ou turismo de aventura">
 		Turismo rural ou ecoturismo ou turismo de aventura
 		</label>
 		<br>
 	<label class="checkbox" for="seg3" >
-		<input type="checkbox" name="segmento" id="seg3" value="${atrativo.segmento }">
+		<input type="checkbox" name="segmento" id="seg3" value="Turismo de eventos e negócios (técnicos-científico e/ou profissional)">
 		Turismo de eventos e negócios (técnicos-científico e/ou profissional)
 		</label>
 		<br>
 	<label class="checkbox" for="seg4">
-		<input type="checkbox" name="segmento" id="seg4" value="${atrativo.segmento }">
+		<input type="checkbox" name="segmento" id="seg4" value="Turismo de entretenimento e lazer">
 		Turismo de entretenimento e lazer
 		</label>
 		<br>
 	<label class="checkbox" for="seg5">
-		<input type="checkbox" name="segmento" id="seg5" value="${atrativo.segmento }">
+		<input type="checkbox" name="segmento" id="seg5" value="Turismo gastronômico">
 		Turismo gastronômico
 		</label>
 		<br>
 	<label class="checkbox" for="seg6">
-		<input type="checkbox" name="segmento" id="seg6" value="${atrativo.segmento }">
+		<input type="checkbox" name="segmento" id="seg6" value="Turismo de sol e praia">
 		Turismo de sol e praia
 		</label>
 		<br>
 	<label class="checkbox" for="seg7">
-		<input type="checkbox" name="segmento" id="seg7" value="${atrativo.segmento }">
+		<input type="checkbox" name="segmento" id="seg7" value="Turismo de esportes e turismo náutico">
 		Turismo de esportes e turismo náutico
 		</label>
 		<br>
 	<label class="checkbox" for="seg8">
-		<input type="checkbox" name="segmento" id="seg8" value="${atrativo.segmento }">
+		<input type="checkbox" name="segmento" id="seg8" value="Turismo religioso e peregrinação">
 		Turismo religioso e peregrinação
 		</label>
 		<br>
 	<label class="checkbox" for="seg9">
-		<input type="checkbox" name="segmento" id="seg9" value="${atrativo.segmento }">
+		<input type="checkbox" name="segmento" id="seg9" value="Turismo pedagógico ou educacional">
 		Turismo pedagógico ou educacional
 		</label>
 		<br>
 	<label class="checkbox" for="seg10">
-		<input type="checkbox" name="segmento" id="seg10" value="${atrativo.segmento }">
-		Turismo macabro ou Dark Turism
+		<input type="checkbox" name="segmento" id="seg10" value="Turismo macabro ou Dark Turism">
+		Turismo macabro ou Dark Turismo
 		</label>
 	
 	</div>
@@ -152,157 +152,157 @@
 	
 	<td>
 	<label class="texto-tabela">Fechado 24h
-	<input class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input class="checkbox-dias" type="checkBox" value="Fechado 24h" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">Aberto 24h
-	<input class="checkbox-dias"  type="checkBox" name="horarioVis">
+	<input class="checkbox-dias"  type="checkBox" value="Aberto 24h" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">6-7<br><br>
-	<input  class="checkbox-dias"  type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias"  type="checkBox" value="6-7" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">7-8<br><br>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="7-8" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">8-9<br><br>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="8-9" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">9-10<br><br>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="9-10" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">10-11
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="10-11" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">11-12
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="11-12" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">12-13
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="12-13" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">13-14
-	<input class="checkbox-dias"  type="checkBox" name="horarioVis">
+	<input class="checkbox-dias"  type="checkBox" value="13-14" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">14-15
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="14-15" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">15-16
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="15-16" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">16-17
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="16-17" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">17-18
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="17-18" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">18-19
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="18-19" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">19-20
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="19-20" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">20-21
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="20-21" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">21-22
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="21-22" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">22-23
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="22-23" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">23-00
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="23-00" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">0-1
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="0-1" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">1-2
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="1-2" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">2-3
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="2-3" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">3-4
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="3-4" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">4-5
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="4-5" name="horarioVis">
 	</label>
 	</td>
 	
 	<td>
 	<label class="texto-tabela">5-6
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="5-6" name="horarioVis">
 	</label>
 	</td>
 	
@@ -311,130 +311,130 @@
 	
 		<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Fechado 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Aberto 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="6-7" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="7-8" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="8-9" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="9-10" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="10-11" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="11-12" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="12-13" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="13-14" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="14-15" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="15-16" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="16-17" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="17-18" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="18-19" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="19-20" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
-	</label>
-	</td>
-	<td>
-	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="20-21" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="21-22" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="22-23" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="23-00" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="0-1" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="1-2" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="2-3" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="3-4" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="4-5" name="horarioVis">
+	</label>
+	</td>
+	<td>
+	<label>
+	<input  class="checkbox-dias" type="checkBox" value="5-6" name="horarioVis">
 	</label>
 	</td>
 	</tr>
@@ -444,130 +444,130 @@
 	
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Fechado 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Aberto 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="6-7" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="7-8" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="8-9" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="9-10" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="10-11" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="11-12" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="12-13" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="13-14" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="14-15" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="15-16" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="16-17" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="17-18" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="18-19" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="19-20" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
-	</label>
-	</td>
-	<td>
-	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="20-21" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="21-22" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="22-23" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="23-00" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="0-1" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="1-2" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="2-3" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="3-4" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="4-5" name="horarioVis">
+	</label>
+	</td>
+	<td>
+	<label>
+	<input  class="checkbox-dias" type="checkBox" value="5-6" name="horarioVis">
 	</label>
 	</td>
 	</tr>
@@ -578,130 +578,130 @@
 	
 			<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Fechado 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Aberto 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="6-7" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="7-8" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="8-9" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="9-10" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="10-11" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="11-12" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="12-13" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="13-14" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="14-15" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="15-16" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="16-17" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="17-18" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="18-19" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="19-20" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
-	</label>
-	</td>
-	<td>
-	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="20-21" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="21-22" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="22-23" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="23-00" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="0-1" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="1-2" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="2-3" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="3-4" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="4-5" name="horarioVis">
+	</label>
+	</td>
+	<td>
+	<label>
+	<input  class="checkbox-dias" type="checkBox" value="5-6" name="horarioVis">
 	</label>
 	</td>
 	</tr>
@@ -712,130 +712,130 @@
 		
 			<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Fechado 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Aberto 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="6-7" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="7-8" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="8-9" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="9-10" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="10-11" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="11-12" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="12-13" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="13-14" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="14-15" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="15-16" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="16-17" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="17-18" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="18-19" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="19-20" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
-	</label>
-	</td>
-	<td>
-	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="20-21" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="21-22" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="22-23" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="23-00" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="0-1" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="1-2" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="2-3" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="3-4" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="4-5" name="horarioVis">
+	</label>
+	</td>
+	<td>
+	<label>
+	<input  class="checkbox-dias" type="checkBox" value="5-6" name="horarioVis">
 	</label>
 	</td>
 	</tr>
@@ -845,130 +845,130 @@
 	
 			<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Fechado 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Aberto 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="6-7" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="7-8" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="8-9" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="9-10" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="10-11" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="11-12" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="12-13" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="13-14" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="14-15" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="15-16" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="16-17" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="17-18" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="18-19" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="19-20" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
-	</label>
-	</td>
-	<td>
-	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="20-21" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="21-22" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="22-23" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="23-00" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="0-1" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="1-2" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="2-3" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="3-4" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="4-5" name="horarioVis">
+	</label>
+	</td>
+	<td>
+	<label>
+	<input  class="checkbox-dias" type="checkBox" value="5-6" name="horarioVis">
 	</label>
 	</td>
 	</tr>
@@ -979,161 +979,160 @@
 	
 			<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Fechado 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="Aberto 24h" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="6-7" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="7-8" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="8-9" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="9-10" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="10-11" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="11-12" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="12-13" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="13-14" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="14-15" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="15-16" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="16-17" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="17-18" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="18-17" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="17-19" name="horarioVis">
 	</label>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
-	</label>
-	</td>
-	<td>
-	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="19-20" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="20-21" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="21-22" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="22-23" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="23-00" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="0-1" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="1-2" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="2-3" name="horarioVis">
 	</label>
 	</td>
 	<td>
 	<label>
-	<input  class="checkbox-dias" type="checkBox" name="horarioVis">
+	<input  class="checkbox-dias" type="checkBox" value="3-4" name="horarioVis">
+	</label>
+	</td>
+	<td>
+	<label>
+	<input  class="checkbox-dias" type="checkBox" value="4-5" name="horarioVis">
 	</label>
 	</td>
 	</tr>
-	
 	</table>
 	</div>
 
 	<div class="form-group">
 	<label class="comoChegarL">5. Como chegar ao atrativo turístico? (Coloque o endereço e informações uteis para quem deseja encontrar o atrativo turístico). *</label>
-	<input class="form-control" type="text" name="comoChegar" placeholder="Como chegar?" value="${atrativo.comoChegar }">
+	<input class="form-control" type="text" name="comoChegar" placeholder="Como chegar?">
 	</div>
 	
 	<div class="form-group">
 	<label class="descL">6. Inclua uma descrição detalhada sobre o atrativo turístico. *</label>
-	<input class="form-control" type="text" name="descricao" value="${atrativo.descricao }" placeholder="Informe uma descrição do atrativo">
+	<input class="form-control" type="text" name="descricao" placeholder="Informe uma descrição do atrativo">
 	</div>
 	
 	<div class="form-group">
 	<label class="linkMapsL">7. Link para acessar o atrativo turístico no Google Maps. *
-	<input class="form-control" type="text" name="linkMaps" value="${atrativo.linkMaps }" placeholder="Link para atrativo no Google Maps">
+	<input class="form-control" type="text" name="linkMaps" placeholder="Link para atrativo no Google Maps">
 	</label>
 	</div>
 	
 	<div class="form-group">
 	<label class="siteLocaL">8. Site do atrativo ou destino turístico. *</label>
-	<input class="form-control" type="text" name="siteLocal" value="${atrativo.siteLocal }" placeholder="Site do Local">
+	<input class="form-control" type="text" name="siteLocal" placeholder="Site do Local">
 	</div>
 	
 	<div class="form-group">
 	<label class="estadoL">9. Estado *</label>
-	<select class="form-control" name="estado" value="${atrativo.estado }">
+	<select class="form-control" name="estado">
 	<option value="">Selecione um estado</option>
 	<option value="AC">Acre</option>
 	<option value="AL">Alagoas</option>
@@ -1169,7 +1168,7 @@
 	
 	<div class="form-group">
 	<label class="cidadeL">10. Município *</label>
-	<select class="form-control" name="cidade" value="${atrativo.cidade }">
+	<select class="form-control" name="cidade">
 		<option value="">Selecione uma cidade</option>
 		<option>ÁGUA BRANCA</option>
 		<option>AGUIAR</option>
@@ -1509,32 +1508,32 @@
 	
 	<div class="form-group">
 	<label class="nomeResL">11. Nome do responsável pelo atrativo ou de quem pode lhe guiar até o local. *</label>
-	<input class="form-control" type="text" name="nomeRes" value="${atrativo.nomeRes }" placeholder="Nome do responsável pelo atrativo">
+	<input class="form-control" type="text" name="nomeRes" placeholder="Nome do responsável pelo atrativo">
 	</div>
 	
 	<div class="form-group">
 	<label class="emailResL">12. E-mail do responsável pelo atrativo ou de quem pode lhe guiar até o local. *</label>
-	<input class="form-control" type="text" name="emailRes" value="${atrativo.emailRes }" placeholder="Contatos do responsável pelo atrativo (e-mail/telefone/instagram)">
+	<input class="form-control" type="text" name="emailRes" placeholder="Contatos do responsável pelo atrativo (e-mail/telefone/instagram)">
 	</div>
 	
 	<div class="form-group">
 	<label class="fontL">17. Fonte das informações (Possíveis fontes de informação externas que utilizou para preencher este formulário: links de sites, documentos, etc. ) *</label>
-	<input class="form-control" type="text" name="font" value="${atrativo.font }" placeholder="Informe a fonte de informação">
+	<input class="form-control" type="text" name="font" placeholder="Informe a fonte de informação">
 	</div>
 	
 	<div class="form-group">
 	<label class="contResL">13. Telefone ou WhatsApp do responsável pelo atrativo ou de quem pode lhe guiar até o local *</label>
-	<input class="form-control" type="text" name="contRes" value="${atrativo.contRes }" placeholder="Contatos para Agências de Receptivo ou Guias de Turismo">
+	<input class="form-control" type="text" name="contRes" placeholder="Contatos para Agências de Receptivo ou Guias de Turismo">
 	</div>
 
 	<div class="form-group">
 	<label>14. Outras informações relevantes sobre o atrativo turístico (Fique a vontade para acrescentar sites que falam sobre o atrativo ou perfis no Instagram/Facebook, por exemplo). *</label>
-	<input class="form-control" type="text" name="outrasInfo" value="${atrativo.outrasInfo }" placeholder="Outras informações relevantes sobre o atrativo">
+	<input class="form-control" type="text" name="outrasInfo" placeholder="Outras informações relevantes sobre o atrativo">
 	</div>
 	
 	<div class="form-group">
 	<label class="urlImgL">15. Fotos do atrativo turístico (Acrescente de 1 a 5 fotos do atrativo) *</label>
-	<input class="form-control-file" type="file" value="${atrativo.urlImg }" name="urlImg">
+	<input class="form-control-file" type="file" name="urlImg">
 	</div>
 	
 	<div class="form-group">
@@ -1543,30 +1542,30 @@
 	<br>
 	
 	<div class="custom-control custom-radio">
-  	<input type="radio" id="s" name="permissao" value="${atrativo.permissao }" class="custom-control-input">
+  	<input type="radio" id="s" name="permissao" value="Sim" class="custom-control-input">
   	<label class="custom-control-label" for="s" >Sim</label>
 	</div>
 	
 	<div class="custom-control custom-radio">
-  	<input type="radio" id="n" name="permissao" value="${atrativo.permissao }" class="custom-control-input">
+  	<input type="radio" id="n" name="permissao" value="Não" class="custom-control-input">
   	<label class="custom-control-label" for="n" >Não</label>
 	</div>
 	</div>
 	
 	<div class="form-group">
 	<label class="nomeCompResL">18. Nome completo do responsável pelo preenchimento deste<br>formulário *</label>
-	<input class="form-control" type="text" value="${atrativo.nomeCompRes }" name="nomeCompRes" placeholder="Nome completo do responsável pelo preenchimento">
+	<input class="form-control" name="nomeCompRes" placeholder="Nome completo do responsável pelo preenchimento">
 	</div>
 	
 	<div class="form-group">
 	<label class="contResPreeL">19. Telefone ou WhatsApp do responsável pelo preenchimento deste formulário *</label>
-	<input class="form-control" type="text" name="contResPree" value="${atrativo.contResPree }" placeholder="Contatos do responsável pelo preenchimento">
+	<input class="form-control" type="text" name="contResPree" placeholder="Contatos do responsável pelo preenchimento">
 	</div>
 	
 	
 	<div class="form-group">
 	<label>20. Caso necessário, acrescente informações adicionais, como críticas ou sugestões ou oportunidades de melhorias.</label>
-	<input class="form-control" type="text" name="infoAdicionais" value="${atrativo.infoAdicionais }" placeholder="Acrescente informações adicionais">
+	<input class="form-control" type="text" name="infoAdicionais" placeholder="Acrescente informações adicionais">
 	</div>
 	<div></div>
 

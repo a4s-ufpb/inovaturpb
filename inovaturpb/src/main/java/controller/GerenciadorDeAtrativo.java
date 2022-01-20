@@ -16,14 +16,14 @@ import model.AtrativoDAO;
 /**
  * Servlet implementation class GerenciarPerfil
  */
-@WebServlet("/GerenciarAtrativo.do")
-public class GerenciarAtrativo extends HttpServlet {
+@WebServlet("/GerenciadorDeAtrativo")
+public class GerenciadorDeAtrativo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public GerenciarAtrativo() {
+    public GerenciadorDeAtrativo() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -43,17 +43,6 @@ public class GerenciarAtrativo extends HttpServlet {
 		
 		try {
 			AtrativoDAO aDAO = new AtrativoDAO();
-			if(acao.equals("alterar")) {
-				a = aDAO.getCarregaPorID(Integer.parseInt(idAtrativo));
-				if(a.getIdAtrativo()>0) {
-					RequestDispatcher disp = getServletContext().getRequestDispatcher("/index.jsp");
-					request.setAttribute("atrativo", a);
-					disp.forward(request, response);
-				}else {
-					mensagem = "Atrativo não encontrado";
-				}
-				
-			}
 			if(acao.equals("deletar")) {
 				a.setIdAtrativo(Integer.parseInt(idAtrativo));
 				if(aDAO.deletar(a)) {
@@ -116,7 +105,7 @@ public class GerenciarAtrativo extends HttpServlet {
 			a.setEstado(estado);
 			a.setTipo(tipo);
 			for(int i=0; i<segmento.length; i++){
-    			segmentos += segmento[i]+"/n ";
+    			segmentos += segmento[i]+", ";
     		}
 			a.setSegmentos(segmentos);
 			a.setDescricao(descricao);
@@ -129,7 +118,7 @@ public class GerenciarAtrativo extends HttpServlet {
 			a.setContRes(contRes);
 			a.setEmailRes(emailRes);
 			for(int i=0; i<horario.length; i++){
-    			horarios += horario[i]+"/n ";
+    			horarios += horario[i]+", ";
     		}
 			a.setHorarios(horarios);
 			a.setNomeCompRes(nomeCompRes);
