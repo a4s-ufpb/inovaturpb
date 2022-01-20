@@ -22,7 +22,7 @@
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <a href="atrativos.jsp" class="btn btn-danger">Voltar</a>
   
 </nav>
@@ -1571,7 +1571,7 @@
 
 	<div class="form-group">
 	
-	<input class="btn btn-primary" type="submit" value="ENVIAR"></div>
+	<input class="btn btn-success" type="submit" value="ENVIAR"></div>
 	
 	
 	</form>
